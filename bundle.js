@@ -3324,7 +3324,7 @@
             [{ id: "m", to: "Maze", delay: !0, remove: "f" }],
             [
               { id: "f", to: "FFA" },
-              { id: "b", to: "Boss Event" },
+              { id: "b", to: "Effect Event" },
               { id: "2", to: "2 Team", end: "2TDM" },
               { id: "3", to: "3 Team", end: "3TDM" },
               { id: "4", to: "4 Team", end: "4TDM" }
@@ -3360,8 +3360,8 @@
             id: "boss-event",
             type: "game",
             code: "heroku-frankfurt-b",
-            at: p.glitch('boss-event-arraz'),
-           // featured: 1, // For Featured Status.
+            at: p.glitch('effect-server'),
+            featured: 1, // For Featured Status.
           },
       //   {
     //        visible: 0,
