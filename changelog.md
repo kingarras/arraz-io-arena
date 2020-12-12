@@ -6,7 +6,10 @@
 
 
 
-
+# Patch 8.0.0
+- Moved Effect Event to heroku.
+# Patch 7.0.0
+- Added Effect Event.
 # Patch 6.0.0
 - Moved this server to netlify.
 # Patch 5.0.0
