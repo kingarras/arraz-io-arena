@@ -3355,6 +3355,14 @@
             at: p.heroku('two-tdm-arras-io'),
            // featured: 1, // For Featured Status.
           },
+            {
+            visible: 0,
+            id: "boss-event",
+            type: "game",
+            code: "heroku-frankfurt-b",
+            at: p.glitch('boss-event-arraz'),
+           // featured: 1, // For Featured Status.
+          },
       //   {
     //        visible: 0,
       //      id: "boss-event",
@@ -3371,14 +3379,14 @@
      //       at: p.heroku('boss-event'),
            // featured: 1, // For Featured Status.
    //       },
-          {
+       /*   {
             visible: 0,
             id: "boss-event",
             type: "game",
             code: "glitch-frankfurt-b",
             at: p.glitch('boss-event-arraz'),
            // featured: 1, // For Featured Status.
-          }, 
+          }, */
         ]
           .map((a, e) => ({ data: a, i: e }))
           .sort((a, e) =>
