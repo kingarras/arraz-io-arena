@@ -3360,7 +3360,7 @@
             id: "boss-event",
             type: "game",
             code: "heroku-frankfurt-b",
-            at: p.heroku('boss-event'),
+            at: p.glitch('boss-event'),
             featured: 1, // For Featured Status.
           }, 
 //          {
