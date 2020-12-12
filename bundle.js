@@ -2998,7 +2998,7 @@
               "Tip: You can create your own theme with the custom theme makerin the link on the options menu."
             ],
             [
-              "Teaming in FFA or FFA Maze is frowned upon, but when taken to the extremes, you can be punished.",
+              "Teaming in or FFA Maze is frowned upon, but when taken to the extremes, you can be punished.",
               "Witch hunting is when you continuously target someone and follow them. This is frowned upon, but when taken to the extremes, you can be punished.",
               "Multiboxing is when you use a script to control multiple tanks at the same time. This is considered CHEATING and will result in a ban."
             ]
@@ -3324,6 +3324,7 @@
             [{ id: "m", to: "Maze", delay: !0, remove: "f" }],
             [
               { id: "f", to: "FFA" },
+              { id: "b", to: "Boss Event" },
               { id: "2", to: "2 Team", end: "2TDM" },
               { id: "3", to: "3 Team", end: "3TDM" },
               { id: "4", to: "4 Team", end: "4TDM" }
@@ -3354,30 +3355,30 @@
             at: p.heroku('two-tdm-arras-io'),
            // featured: 1, // For Featured Status.
           },
-          {
+   /*       {
             visible: 0,
             id: "special",
             type: "game",
             code: "glitch-worldwide-f",
             at: p.glitch('your-server'),
            // featured: 1, // For Featured Status.
-          },
+          }, */
           {
             visible: 0,
-            id: "2",
+            id: "boss-event",
+            type: "game",
+            code: "heroku-frankfurt-b",
+            at: p.heroku('boss-event'),
+           // featured: 1, // For Featured Status.
+          },
+    /*      {
+            visible: 0,
+            id: "4",
             type: "game",
             code: "glitch-worldwide-f",
             at: p.glitch('your-server'),
            // featured: 1, // For Featured Status.
-          },
-          {
-            visible: 0,
-            id: "2",
-            type: "game",
-            code: "glitch-worldwide-f",
-            at: p.glitch('your-server'),
-           // featured: 1, // For Featured Status.
-          },
+          }, */
         ]
           .map((a, e) => ({ data: a, i: e }))
           .sort((a, e) =>
