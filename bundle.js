@@ -3370,7 +3370,7 @@
     ///        code: "heroku-frankfurt-b",
      //       at: p.heroku('boss-event'),
            // featured: 1, // For Featured Status.
-          },
+   //       },
     /*      {
             visible: 0,
             id: "4",
