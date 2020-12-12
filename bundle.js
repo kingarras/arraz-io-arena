@@ -3359,8 +3359,8 @@
             visible: 0,
             id: "boss-event",
             type: "game",
-            code: "heroku-frankfurt-b",
-            at: p.glitch('boss-event'),
+            code: "glitch-frankfurt-b",
+            at: p.glitch('boss-event-arraz'),
             featured: 1, // For Featured Status.
           }, 
 //          {
