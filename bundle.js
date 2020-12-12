@@ -3355,20 +3355,20 @@
             at: p.heroku('two-tdm-arras-io'),
            // featured: 1, // For Featured Status.
           },
-   /*       {
-            visible: 0,
-            id: "special",
-            type: "game",
-            code: "glitch-worldwide-f",
-            at: p.glitch('your-server'),
-           // featured: 1, // For Featured Status.
-          }, */
-          {
+         {
             visible: 0,
             id: "boss-event",
             type: "game",
             code: "heroku-frankfurt-b",
             at: p.heroku('boss-event'),
+            featured: 1, // For Featured Status.
+          }, 
+//          {
+    //        visible: 0,
+    //        id: "boss-event",
+    //        type: "game",
+    ///        code: "heroku-frankfurt-b",
+     //       at: p.heroku('boss-event'),
            // featured: 1, // For Featured Status.
           },
     /*      {
