@@ -2277,8 +2277,8 @@
                                         r = R + f * (D.offset * Math.sin(D.direction + D.angle + m) + (D.length / 2 - r) * Math.sin(D.angle + m));
                                         var C = f * (D.length / 2 - (1 === D.aspect ? w[A] : 0)),
                                             L = f * D.width / 2,
-                                            G = D.aspect;
                                             COLOR = D.color,
+                                           G = D.aspect;
                                         D = D.angle + m;
                                         var X = L;
                                         0 < G ? X *= G : 0 > G && (L *= -G);
