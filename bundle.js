@@ -2278,6 +2278,7 @@
                                         var C = f * (D.length / 2 - (1 === D.aspect ? w[A] : 0)),
                                             L = f * D.width / 2,
                                             G = D.aspect;
+                                            COLOR = D.color,
                                         D = D.angle + m;
                                         var X = L;
                                         0 < G ? X *= G : 0 > G && (L *= -G);
@@ -2285,8 +2286,11 @@
                                         let b = Math.atan2(L, C);
                                         X = Math.sqrt(C * C + X * X);
                                         C = Math.sqrt(C * C + L * L);
-                                        var lol = (D.color != null) ? T(e(D.color), F.status.getColor(), F.status.getBlend()) : T(l.grey, F.status.getColor(), F.status.getBlend());
-                                        k(h, lol);
+                                        if (COLOR==null){
+                                          COLOR = 16
+                                              }
+                                             k(h, e(COLOR));
+ 
                                         d.beginPath();
                                         d.moveTo(v + X * Math.cos(D + G), r + X * Math.sin(D + G));
                                         d.lineTo(v +
