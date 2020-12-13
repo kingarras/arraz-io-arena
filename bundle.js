@@ -3329,6 +3329,7 @@
             [
               { id: "f", to: "FFA" },
               { id: "b", to: "Effect Event" },
+              { id: "t", to: "FTB Tank Arena" },
               { id: "2", to: "2 Team", end: "2TDM" },
               { id: "3", to: "3 Team", end: "3TDM" },
               { id: "4", to: "4 Team", end: "4TDM" }
@@ -3361,20 +3362,20 @@
           },
             {
             visible: 0,
-            id: "boss-event",
+            id: "effect-event",
             type: "game",
             code: "heroku-frankfurt-b",
             at: p.heroku('effect-server'),
             featured: 1, // For Featured Status.
           },
-      //   {
-    //        visible: 0,
-      //      id: "boss-event",
-      //      type: "game",
-      //      code: "glitch-frankfurt-b",
-      //      at: p.glitch('boss-event-arraz'),
-      //      featured: 1, // For Featured Status.
-     //     }, 
+         {
+            visible: 0,
+          id: "ftb-arena",
+           type: "game",
+            code: "glitch-frankfurt-t",
+            at: p.glitch('ftb-arena'),
+            featured: 1, // For Featured Status.
+         }, 
 //   /       {
     //        visible: 0,
     //        id: "boss-event",
