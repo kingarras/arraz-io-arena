@@ -5,7 +5,11 @@
 
 
 
-
+# All-In-One Patch (For FTB Tank Arena)
+- Added a new gamemode: FTB Tank Arena.
+- Removed every tank in FTB Tank Arena except basic and single.
+- Added 2 new tanks to FTB Tank Arena: Flamethrower and Superlaser.
+- Added 1 new tank to FTB Tank Arena: SwordBow (Thanks Celestial for this tank).
 # Patch 8.0.0
 - Moved Effect Event to heroku.
 # Patch 7.0.0
