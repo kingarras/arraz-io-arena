@@ -2743,13 +2743,15 @@
                                 K(c + 33, c + 330 * (.1 + .8 * (na ? Math.min(1, A.__s.getScore() / na) : 1)), d + a / 2, a - 3.5, l.green);
                                 C.draw("Score: " + H.formatLargeNumber(A.__s.getScore()), c + 165, d + a / 2, a - 2, l.guiwhite, "center",
                                     !0);
-                                g.lineWidth = 4;/*
-                                if (//name color) {
-                                N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.yellow, "center")
-                                } else {*/
-                                N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.guiwhite, "center")
-                                //};// name color
-                            }
+                                g.lineWidth = 4;
+                                 if (z.name.includes('Ivyxgen64'))N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, 150 > Date.now() % 300 ? l.green : l.green, "center")
+
+                         //       if (//name color) {
+                          //      N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.yellow, "center")
+                            //    } else {*/
+                           //     N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.guiwhite, "center")
+                             //   //};// name color
+                       //     }
                             b.mobile && L(.8); {
                                 let c = 200 / b.gameWidth * b.gameHeight,
                                     h = b.screenWidth - 20,
