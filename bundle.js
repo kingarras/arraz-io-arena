@@ -2746,12 +2746,12 @@
                                 g.lineWidth = 4;
                                  if (z.name.includes('Ivyxgen64'))N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, 150 > Date.now() % 300 ? l.green : l.green, "center")
 
-                         //       if (//name color) {
-                          //      N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.yellow, "center")
-                            //    } else {*/
-                           //     N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.guiwhite, "center")
-                             //   //};// name color
-                       //     }
+                                if (//name color) {
+                               N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.yellow, "center")
+                                } else {*/
+                               N.draw(z.name, Math.round(c + 165) + .5, Math.round(d - 10 - 4) + .5, 32, l.guiwhite, "center")
+                                };// name color
+                            }
                             b.mobile && L(.8); {
                                 let c = 200 / b.gameWidth * b.gameHeight,
                                     h = b.screenWidth - 20,
