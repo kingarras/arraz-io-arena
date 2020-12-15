@@ -5,6 +5,14 @@
 
 
 
+# All-In-One Patch (For FFA)
+- Added 1 new branches avalible for bt and developers.(Misc)
+- Added 5 new tanks to the Misc Branch, added 1 new bt tank.
+- Changed the map.
+# New Gamemode!
+- Added a new gamemode called AWP vs AWP!
+- - In this gamemode, you start as an awp, press n, then select AWP.Bosses. There you have more AWPs!
+- Players fight, the first one who gets 2m, will get a 1day developer token!
 # All-In-One Patch (For FTB Tank Arena)
 - Added a new gamemode: FTB Tank Arena.
 - Removed every tank in FTB Tank Arena except basic and single.
