@@ -3330,6 +3330,7 @@
               { id: "f", to: "FFA" },
               { id: "b", to: "Effect Event" },
               { id: "t", to: "FTB Tank Arena" },
+              { id: "s", to: "AWP vs AWP" },
               { id: "2", to: "2 Team", end: "2TDM" },
               { id: "3", to: "3 Team", end: "3TDM" },
               { id: "4", to: "4 Team", end: "4TDM" }
@@ -3366,7 +3367,7 @@
             type: "game",
             code: "heroku-frankfurt-b",
             at: p.heroku('effect-server'),
-            featured: 1, // For Featured Status.
+            featured: 0, // For Featured Status.
           },
          {
             visible: 0,
@@ -3376,14 +3377,14 @@
             at: p.glitch('ftb-arena'),
             featured: 1, // For Featured Status.
          }, 
-//   /       {
-    //        visible: 0,
-    //        id: "boss-event",
-    //        type: "game",
-    ///        code: "heroku-frankfurt-b",
-     //       at: p.heroku('boss-event'),
-           // featured: 1, // For Featured Status.
-   //       },
+          {
+            visible: 0,
+            id: "awp-vs-awp",
+            type: "game",
+            code: "glitch-worldwide-s",
+            at: p.glitch('awp-rush-arraz'),
+            featured: 1, // For Featured Status.
+          },
        /*   {
             visible: 0,
             id: "boss-event",
